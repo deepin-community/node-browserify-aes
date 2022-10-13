@@ -1,0 +1,15 @@
+Description: writeUIntBE was passed wrong arguments and node >= 10 is less liberal about that
+Forwarded: https://github.com/crypto-browserify/browserify-aes/issues/58
+Last-Update: 2019-01-06
+Author: Jérémy Lal <kapouer@melix.org>, https://github.com/crypto-browserify/browserify-aes/pull/57
+--- a/authCipher.js
++++ b/authCipher.js
+@@ -34,7 +34,7 @@
+   ghash.update(Buffer.alloc(8, 0))
+   var ivBits = len * 8
+   var tail = Buffer.alloc(8)
+-  tail.writeUIntBE(ivBits, 0, 8)
++  tail.writeUIntBE(ivBits, 2, 6)
+   ghash.update(tail)
+   self._finID = ghash.state
+   var out = Buffer.from(self._finID)

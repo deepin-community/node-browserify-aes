@@ -1,0 +1,75 @@
+node-browserify-aes (1.2.0-4) unstable; urgency=medium
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Switch test and install to pkg-js-tools
+
+  [ Debian Janitor ]
+  * debian/copyright: use spaces rather than tabs to start continuation
+    lines.
+  * Set upstream metadata fields: Bug-Submit.
+  * Update standards version to 4.5.0, no changes needed.
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on node-buffer-xor,
+      node-cipher-base, node-create-hash, node-evp-bytestokey, node-inherits,
+      node-safe-buffer, node-tap and node-tape.
+    + node-browserify-aes: Drop versioned constraint on node-buffer-xor,
+      node-cipher-base, node-create-hash, node-evp-bytestokey, node-inherits,
+      node-safe-buffer and nodejs in Depends.
+
+  [ Bastien Roucariès ]
+  * MA: foreign
+
+ -- Bastien Roucariès <rouca@debian.org>  Tue, 14 Sep 2021 11:19:06 +0000
+
+node-browserify-aes (1.2.0-3) unstable; urgency=medium
+
+  * Bump policy and debhelper
+  * Install to /usr/share
+
+ -- Bastien Roucariès <rouca@debian.org>  Wed, 04 Sep 2019 11:00:30 +0200
+
+node-browserify-aes (1.2.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Patch to fix error on nodejs 10
+  * Fix Vcs-Browser field
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 06 Jan 2019 23:14:28 +0100
+
+node-browserify-aes (1.2.0-1) unstable; urgency=medium
+
+  * New upstream version
+  * Bump policy, no changes
+  * Move to salsa
+
+ -- Bastien Roucariès <rouca@debian.org>  Mon, 07 May 2018 12:55:25 +0200
+
+node-browserify-aes (1.1.1-2) unstable; urgency=medium
+
+  * Bump policy no changes
+  * Bump compat to 11
+
+ -- Bastien Roucariès <rouca@debian.org>  Sun, 18 Feb 2018 23:41:54 +0100
+
+node-browserify-aes (1.1.1-1) unstable; urgency=medium
+
+  * New upstream version
+  * Move to section javascript, and bump policy
+
+ -- Bastien Roucariès <rouca@debian.org>  Thu, 09 Nov 2017 13:37:06 +0100
+
+node-browserify-aes (1.0.8-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Bastien Roucariès <rouca@debian.org>  Thu, 07 Sep 2017 16:33:35 +0200
+
+node-browserify-aes (1.0.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #862339)
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 16 Jun 2017 13:56:58 +0530
