@@ -1,3 +1,12 @@
+node-browserify-aes (1.2.0-5) unstable; urgency=medium
+
+  * Team upload
+  * Fix field name case in debian/copyright (comment => Comment).
+  * Drop dependency to nodejs
+  * Fix test for tap >= 15 (--no-cov) (Closes: #1009606)
+
+ -- Yadd <yadd@debian.org>  Thu, 21 Apr 2022 18:29:18 +0200
+
 node-browserify-aes (1.2.0-4) unstable; urgency=medium
 
   [ Xavier Guimard ]

@@ -26,7 +26,6 @@ Package: node-browserify-aes
 Architecture: all
 Depends:
  ${misc:Depends}
- , nodejs
  , node-create-hash
  , node-evp-bytestokey
  , node-cipher-base
