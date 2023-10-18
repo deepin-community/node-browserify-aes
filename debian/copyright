@@ -45,7 +45,7 @@ Copyright:  2009-2013, Jeff Mott
             2012 Juho Vähä-Herttua
             2016 Fedirico Bond
 License: BSD-2 or GPL-2, and BSD-3 and Expat
-comment: Jeff Mott is original author of crypto-js see
+Comment: Jeff Mott is original author of crypto-js see
  https://github.com/keybase/triplesec/blob/master/LICENSE
  .
  Maxwell Krohn is original author of triplesec releasing modification
